@@ -6,7 +6,7 @@ describe 'f5_addtotrust' do
     pp=<<-EOS
     f5_addtotrust { '/Common/addtotrust':
       device       => "10.192.74.112",
-      deviceName   => "bigip-b.f5.local",
+      device_name  => "bigip-b.f5.local",
       username     => "admin",
       password     => "admin",
     }

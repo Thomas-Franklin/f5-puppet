@@ -24,6 +24,7 @@ HOSTS:
       - 443
       - 80
       - 8443
+      - 8100
 CONFIG:
   type: "foss"
   ec2_yaml: "spec/acceptance/nodesets/ec2.yaml"
