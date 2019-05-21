@@ -1,0 +1,15 @@
+{
+  "description": "POC task to return f5 facts",
+  "remote": true,
+  "input_method": "stdin",
+  "supports_noop": false,
+  "parameters": {},
+  "files": [
+    "f5/lib/puppet/util/task_helper.rb",
+    "f5/lib/puppet/util/network_device/f5.rb",
+    "f5/lib/puppet/util/network_device/f5/device.rb",
+    "f5/lib/puppet/util/network_device/f5/facts.rb",
+    "f5/lib/puppet/util/network_device/transport/f5.rb",
+    "f5/lib/puppet/provider/f5.rb"
+  ]
+}

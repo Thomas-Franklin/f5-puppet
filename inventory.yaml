@@ -1,0 +1,12 @@
+---
+nodes:
+  - name: # ip of address
+    alias: f5
+    config:
+      transport: remote
+      remote:
+        remote-transport: f5
+        user: # user of device
+        password: # password of device
+        port: # port of device
+        ssl: false
